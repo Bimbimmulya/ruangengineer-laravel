@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section-category-dateTime-author {
+    line-height: 1px;
+    margin-top: 40px;
+}
+
+.footer-modal {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.readMore {
+    background: #4BC4DF;
+    padding: 10px;
+    border: none;
+    border-radius: 16px;
+    color: #fff;
+}
+
+.section-copy-delete {
+    background: #4BC4DF;
+    gap: 10px;
+}
