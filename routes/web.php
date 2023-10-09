@@ -21,7 +21,8 @@ use App\Http\Controllers\ImageInContentController;
 |
 */
 
-Route::get('/', function () {return view('welcome');});
+Route::get('/', function () {return view('layouts.master');});
+Route::get('/jasa-pembuatan-website-murah', function () {return view('jasa-pembuatan-website-murah');});
 
 // Auth::routes();
 
