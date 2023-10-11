@@ -21,12 +21,12 @@ use App\Http\Controllers\ImageInContentController;
 |
 */
 
-Route::get('/', function () {return view('layouts.master');});
+Route::get('/', function () {return view('home');});
 Route::get('/jasa-pembuatan-website-murah', function () {return view('jasa-pembuatan-website-murah');});
 
 // Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 // Admin
 Route::get('/admin', [AdminController::class, 'index'])->name('admin.index')->middleware('auth');
