@@ -190,74 +190,8 @@
       </div> -->
     </section>
 
-    {{-- behind re --}}
-    <section class="behind-re">
-      <h2 class="why-choose-title">
-       Sosok dibalik Ruang Engineer
-      </h2>
-      <p class="sub-why-choose">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem odit perspiciatis illum iste excepturi ducimus dignissimos ex deserunt suscipit, perferendis, odio iure nesciunt rerum corporis quae qui. Alias, eveniet optio.
-      </p>
-
-      <div class="container">
-        <div class="behind-wrapper">
-          <div class="our-team">
-            <div class="img-of-team">
-              <img
-                src="assets/images/team1.jpg"
-                class="img-fluid"
-                alt="My team 1"
-                style="border-radius: 50%;border: 1px solid #4bc4df;"
-                width="200px"
-                height="200px"
-              />
-            </div>
-
-            <div class="desc-of-team mt-3">
-              <h3 class="name-behind-team">Bimbim <a href="" style="color: #4bc4df;"><i class="bi bi-linkedin"></i></a></h3>
-              <p class="vision-on-team">Believes the mission is bigger than the individual</p>
-            </div>
-          </div>
-          <div class="our-team">
-            <div class="img-of-team">
-              <img
-                src="assets/images/team1.jpg"
-                class="img-fluid"
-                alt="My team 1"
-                style="border-radius: 50%;border: 1px solid #4bc4df;"
-                width="200px"
-                height="200px"
-              />
-            </div>
-
-            <div class="desc-of-team mt-3">
-              <h3 class="name-behind-team">Doni <a href="" style="color: #4bc4df;"><i class="bi bi-linkedin"></i></a></h3>
-              <p class="vision-on-team">Wants to transform Indonesia’s supply chain</p>
-            </div>
-          </div>
-          <div class="our-team">
-            <div class="img-of-team">
-              <img
-                src="assets/images/team1.jpg"
-                class="img-fluid"
-                alt="My team 1"
-                style="border-radius: 50%;border: 1px solid #4bc4df;"
-                width="200px"
-                height="200px"
-              />
-            </div>
-
-            <div class="desc-of-team mt-3">
-              <h3 class="name-behind-team">Afis <a href="" style="color: #4bc4df;"><i class="bi bi-linkedin"></i></a></h3>
-              <p class="vision-on-team">Prioritizes customers every step of the way</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     {{-- about --}}
-    <section class="wrapper-with-bg">
+    <section class="wrapper-with-bg-about">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-12 col-sm-12">
@@ -266,7 +200,7 @@
           <div class="col-lg-6 col-md-12 col-sm-12">
             <h2 class="about-title">Kami Sebuah Startup Digital Agency</h2>
             <p class="desc-about">
-              Ruang Engineer adalah sebuah startup digital agency yang memiliki spesialisasi dalam <span class="nice-tosca">Jasa Pembuatan Website</span>, Optimasi SEO dan Digital Marketing. Dengan didukung oleh tim yang berpengalaman, kami siap membantu bisnis Anda menjangkau lebih banyak klien dan meraih kesuksesan yang lebih nyata.
+              Ruang Engineer adalah sebuah startup digital agency yang memiliki spesialisasi dalam <span class="nice-tosca">Jasa Pembuatan Website</span>, <span class="nice-tosca">Optimasi SEO</span> dan <span class="nice-tosca">Digital Marketing</span>. Dengan didukung oleh tim yang berpengalaman, kami siap membantu bisnis Anda menjangkau lebih banyak klien dan meraih kesuksesan yang lebih nyata.
             </p>
             <p class="paragraph-content">
               Jadikan kami rekan setia Anda dalam menghadirkan hasil yang nyata dan menggapai potensi penuh bisnis Anda di dunia digital.
@@ -301,7 +235,7 @@
                 </div>
               </div>
               <div class="achivment">
-                <span class="number-achv">1947</span>
+                <span class="number-achv">216+</span>
                 <div class="achv">
                   <span
                     >Completed <br />
@@ -311,8 +245,14 @@
               </div>
             </div>
           </div>
+
           <div class="col-lg-6 col-md-12 col-sm-12">
-            <img src="assets/images/video.png" class="video img-fluid" alt="" />
+            <div class="video-container">
+              <video width="640" height="360" autoplay loop muted style="border-radius: 10px">
+                <source src="assets/images/video.mp4" type="video/mp4">
+                Maaf, browser Anda tidak mendukung pemutaran video.
+              </video>
+            </div>
           </div>
         </div>
       </div>
@@ -332,7 +272,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-12">
-            <div class="d-flex gap24 mb-col">
+            <div class="d-flex gap24 mb-col" style="height:200px">
               <div class="img">
                 <img
                   src="assets/images/icons-realtime.png"
@@ -343,13 +283,12 @@
               <div class="desc-why-choose">
                 <p class="title-desc">Proses Pembuatan Website Yang Cepat</p>
                 <p class="desc">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Membangun website dengan cepat tanpa mengorbankan kualitas. Memastikan peluncuran tepat waktu sesuai jadwal yang telah disepakati, Memungkinkan Anda untuk cepat terkoneksi dengan dunia online.
                 </p>
               </div>
             </div>
 
-            <div class="d-flex gap24 mb-col">
+            <div class="d-flex gap24 mb-col" style="height:200px">
               <div class="img">
                 <img
                   src="assets/images/icons-support-seo.png"
@@ -360,13 +299,12 @@
               <div class="desc-why-choose">
                 <p class="title-desc">Support SEO</p>
                 <p class="desc">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Memberikan perhatian khusus pada faktor SEO saat membangun website mulai dari struktur code maupun aspek penting lainnya yang ramah mesin pencari untuk membantu website Anda muncul lebih tinggi di hasil pencarian Google.
                 </p>
               </div>
             </div>
 
-            <div class="d-flex gap24 mb-col">
+            <div class="d-flex gap24 mb-col" style="height:200px">
               <div class="img">
                 <img
                   src="assets/images/icons-team.png"
@@ -377,15 +315,14 @@
               <div class="desc-why-choose">
                 <p class="title-desc">Didukung Tim Berpengalaman</p>
                 <p class="desc">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Memiliki tim berpengalaman dalam dunia pengembangan web. Dengan pengetahuan mendalam seputar tren desain, teknologi terbaru, dan keahlian yang teruji dalam menciptakan solusi online yang efektif dan berkualitas tinggi untuk klien-klien kami.
                 </p>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-sm-12">
-            <div class="d-flex gap24 mb-col">
+            <div class="d-flex gap24 mb-col" style="height:200px">
               <div class="img">
                 <img
                   src="assets/images/icons-responsif.png"
@@ -396,13 +333,12 @@
               <div class="desc-why-choose">
                 <p class="title-desc">Design Website Responsif dan Elegan</p>
                 <p class="desc">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Tidak hanya dirancang secara estetis, tetapi juga responsif di berbagai perangkat. Desain yang ramah pengguna adalah fokus utama kami, memastikan pengunjung website memiliki pengalaman yang menyenangkan.
                 </p>
               </div>
             </div>
 
-            <div class="d-flex gap24 mb-col">
+            <div class="d-flex gap24 mb-col" style="height:200px">
               <div class="img">
                 <img
                   src="assets/images/icons-24jam.png"
@@ -413,13 +349,12 @@
               <div class="desc-why-choose">
                 <p class="title-desc">Layanan Prima 24/7</p>
                 <p class="desc">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Siap memberikan pelayanan terbaik selama 24 jam. Kami selalu siaga kapan pun Anda memerlukan bantuan, baik hal teknis atau pertanyaan terkait proyek, memastikan kepuasan pelanggan adalah prioritas utama kami.
                 </p>
               </div>
             </div>
 
-            <div class="d-flex gap24 mb-col">
+            <div class="d-flex gap24 mb-col" style="height:200px">
               <div class="img">
                 <img
                   src="assets/images/icons-gratis-domain.png"
@@ -430,8 +365,7 @@
               <div class="desc-why-choose">
                 <p class="title-desc">Gratis Domain, Hosting, & Konsultasi</p>
                 <p class="desc">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Menawarkan paket lengkap yang mencakup domain, hosting, dan konsultasi tanpa biaya tambahan. Kami berkomitmen untuk memberikan solusi lengkap yang terjangkau dan membantu Anda meraih kesuksesan online.
                 </p>
               </div>
             </div>
@@ -451,13 +385,13 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-12 col-sm-12">
-            <img src="assets/images/img-services.png" id="bannerImage" class="img-fluid" alt="" />
+            <img src="assets/images/lpage.jpg" id="bannerImage" class="img-fluid" alt=""  style="border-radius: 15px"/>
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12">
             <div class="d-flex flex-column service-distance">
               
               <div class="wrapper-service">
-                <a onclick="changeImage('assets/images/img-services.png')">
+                <a onclick="changeImage('assets/images/lpage.jpg')">
                 <i class="bi bi-arrow-left-circle"></i>
                 <span>Website Landing Page</span>
                 </a>
@@ -465,42 +399,42 @@
 
               
               <div class="wrapper-service">
-                <a onclick="changeImage('assets/images/blog-one.png')">
+                <a onclick="changeImage('assets/images/company-profile.jpg')">
                 <i class="bi bi-arrow-left-circle"></i>
                 <span>Pembuatan Website Company Profile</span>
                 </a>
               </div>
               
               <div class="wrapper-service">
-                <a onclick="changeImage('assets/images/blog-2.png')">
+                <a onclick="changeImage('assets/images/e-commerce.jpg')">
                 <i class="bi bi-arrow-left-circle"></i>
                 <span>Pembuatan Website E-commerce</span>
                 </a>
               </div>
 
               <div class="wrapper-service">
-                <a onclick="changeImage('assets/images/blog-3.png')">
+                <a onclick="changeImage('assets/images/blog.jpg')">
                 <i class="bi bi-arrow-left-circle"></i>
                 <span>Pembuatan Website Blog & Berita</span>
                 </a>
               </div>
 
               <div class="wrapper-service">
-                <a onclick="changeImage('assets/images/blog-one.png')">
+                <a onclick="changeImage('assets/images/inventory.jpg')">
                 <i class="bi bi-arrow-left-circle"></i>
                 <span>Pembuatan Website Inventory</span>
                 </a>
               </div>
 
               <div class="wrapper-service">
-                <a onclick="changeImage('assets/images/blog-2.png')">
+                <a onclick="changeImage('assets/images/book-online.jpg')">
                 <i class="bi bi-arrow-left-circle"></i>
                 <span>Pembuatan Website Booking Online</span>
                 </a>
               </div>
 
               <div class="wrapper-service">
-                <a onclick="changeImage('assets/images/blog-3.png')">
+                <a onclick="changeImage('assets/images/seo-optimize.jpg')">
                 <i class="bi bi-arrow-left-circle"></i>
                 <span>Jasa Optimasi SEO</span>
                 </a>
@@ -615,7 +549,7 @@
                 />
               </div>
               <div class="desc-why-choose">
-                <p class="title-desc">SELAMAT WEBSITE ANDA SIAP DI GUNAKAN!</p>
+                <p class="title-desc mt-3">SELAMAT WEBSITE ANDA SIAP DI GUNAKAN! 🎉</p>
               </div>
             </div>
           </div>
@@ -954,79 +888,35 @@
       </p>
 
       <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-12 col-sm-12 mb-5">
-            <a href="#" class="link-single-blog">
+        <div class="row justify-content-center">
+          @foreach ($artikels as $artikel)
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+            <a href="{{route('detail_artikel', $artikel->slug)}}" class="link-single-blog">
               <div class="card">
                 <div class="zoom-frame">
                   <img
-                    src="assets/images/blog-one.png"
-                    class="card-img-top"
-                    alt=""
+                    src="{{ asset('storage/' .  $artikel->gambar) }}"
+                    class="img-on-blog"
+                    alt="{{ $artikel->alt_image }}"
                   />
                 </div>
+
                 <div class="card-body">
-                  <span class="card-category">Software</span>
+                  <span class="card-category">{{ $artikel->category->name_category }}</span>
                   <h3 class="card-title">
-                    Cyber Attack: Is the 'Big One' coming soon in 2022
+                    {{ $artikel->title }}
                   </h3>
                   <p class="card-text">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-12 col-sm-12 mb-5">
-            <a href="#" class="link-single-blog">
-              <div class="card">
-                <div class="zoom-frame">
-                  <img
-                    src="assets/images/blog-2.png"
-                    class="card-img-top"
-                    alt=""
-                  />
-                </div>
-                <div class="card-body">
-                  <span class="card-category">Software</span>
-                  <h3 class="card-title">
-                    Cyber Attack: Is the 'Big One' coming soon in 2022
-                  </h3>
-                  <p class="card-text">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-md-12 col-sm-12 ">
-            <a href="#" class="link-single-blog">
-              <div class="card">
-                <div class="zoom-frame">
-                  <img
-                    src="assets/images/blog-3.png"
-                    class="card-img-top"
-                    alt=""
-                  />
-                </div>
-                <div class="card-body">
-                  <span class="card-category">Software</span>
-                  <h3 class="card-title">
-                    Cyber Attack: Is the 'Big One' coming soon in 2022
-                  </h3>
-                  <p class="card-text">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint.
+                    {{ $artikel->deskripsi }}
                   </p>
                 </div>
               </div>
             </a>
           </div>
 
+          @endforeach
           <div class="text-center mt80">
-            <a href="#" class="btn-view-more-blog">Lihat Selengkapnya</a>
+            <a href="/blog" class="btn-view-more-blog">Lihat Selengkapnya</a>
           </div>
           
         </div>
@@ -1175,7 +1065,7 @@
     </section>
 
     {{-- contact form --}}
-    <section class="wrapper-primary">
+    <section class="wrapper-primary-form">
       <div class="container">
         <div>
           <h2 class="why-choose-title">Contact Us</h2>
@@ -1264,7 +1154,7 @@
     </section>
 
     {{-- FAQ --}}
-    <section class="wrapper-primary">
+    <section class="wrapper-primary-faq">
       <div class="container mt-3 mb-5">
         <div class="row">
           <div class="mx-auto col-12">

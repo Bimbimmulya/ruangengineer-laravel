@@ -74,7 +74,7 @@
     <!-- End Navbar -->
 
     <section class="bg-hero">
-      <h1 class="main-title">Jika Anda Memiliki Bisnis Baru dan Masih Belum Memiliki Website</h1>
+      <h1 class="main-title">Jika Anda Memiliki Bisnis Baru dan Masih <span class="nice-tosca">Belum Memiliki Website</span></h1>
       <p class="secondary-text">
         Jangan khawatir. Kini, siapapun bisa memiliki website dengan mudah melalui layanan pembuatan website profesional yang terjangkau dari Ruang Engginer
       </p>
@@ -91,19 +91,18 @@
     <section class="our-blog">
       <div class="container">
         <h2 class="text-center mb-3">Mengapa Anda Harus Memiliki Website Sendiri? 🤷‍♀️</h2>
-        <p class="text-center mb-5">Di era digital yang terus berkembang, memiliki kehadiran online adalah suatu keharusan. Dalam dunia yang semakin terhubung ini, website adalah kunci untuk memanfaatkan peluang, menciptakan identitas online, dan menghubungkan diri dengan khalayak yang lebih luas. Mari kita bahas mengapa memiliki website adalah langkah yang penting untuk kesuksesan bisnis Anda.</p>
+        <p class="w70 text-center fw-medium mb-5">Di era digital yang terus berkembang, memiliki kehadiran online adalah suatu keharusan. Dalam dunia yang semakin terhubung ini, website adalah kunci untuk memanfaatkan peluang, menciptakan identitas online, dan menghubungkan diri dengan khalayak yang lebih luas. Mari kita bahas mengapa memiliki website adalah langkah yang penting untuk kesuksesan bisnis Anda.</p>
       </div>
 
       <div class="container">
         <div class="row">
-          <div class="col-md-4 col-sm-12 mb-5">
-            <a href="#" class="link-single-blog">
-              <div class="card">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+              <div class="card-benefit">
                 <div class="zoom-frame">
                   <img
-                    src="assets/images/memparluasjaringan.webp"
-                    class="card-img-top"
-                    alt=""
+                    src="assets/images/growth.jpg"
+                    class="img-on-benefit"
+                    alt="Pertumbuhan Bisnis"
                   />
                 </div>
                 <div class="card-body">
@@ -115,16 +114,14 @@
                   </p>
                 </div>
               </div>
-            </a>
           </div>
-          <div class="col-md-4 col-sm-12 mb-5">
-            <a href="#" class="link-single-blog">
-              <div class="card">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+              <div class="card-benefit">
                 <div class="zoom-frame">
                   <img
                     src="assets/images/aksesinformation.png"
-                    class="card-img-top"
-                    alt=""
+                    class="img-on-benefit"
+                    alt="Pemasaran efektif"
                   />
                 </div>
                 <div class="card-body">
@@ -136,16 +133,14 @@
                   </p>
                 </div>
               </div>
-            </a>
           </div>
-          <div class="col-md-4 col-sm-12 ">
-            <a href="#" class="link-single-blog">
-              <div class="card">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+              <div class="card-benefit">
                 <div class="zoom-frame">
                   <img
-                    src="assets/images/katalogonline.avif"
-                    class="card-img-top"
-                    alt=""
+                    src="assets/images/saving.jpg"
+                    class="img-on-benefit"
+                    alt="Menghemat Biaya"
                   />
                 </div>
                 <div class="card-body">
@@ -157,16 +152,14 @@
                   </p>
                 </div>
               </div>
-            </a>
           </div>
-          <div class="col-md-4 col-sm-12 mb-5">
-            <a href="#" class="link-single-blog">
-              <div class="card">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+              <div class="card-benefit">
                 <div class="zoom-frame">
                   <img
-                    src="assets/images/aksesinformation.png"
-                    class="card-img-top"
-                    alt=""
+                    src="assets/images/memparluasjaringan.webp"
+                    class="img-on-benefit"
+                    alt="Mudah ditemukan pelanggan"
                   />
                 </div>
                 <div class="card-body">
@@ -178,16 +171,14 @@
                   </p>
                 </div>
               </div>
-            </a>
           </div>
-          <div class="col-md-4 col-sm-12 mb-5">
-            <a href="#" class="link-single-blog">
-              <div class="card">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+              <div class="card-benefit">
                 <div class="zoom-frame">
                   <img
-                    src="assets/images/aksesinformation.png"
-                    class="card-img-top"
-                    alt=""
+                    src="assets/images/analis-bisnis.jpg"
+                    class="img-on-benefit"
+                    alt="Analisis Data"
                   />
                 </div>
                 <div class="card-body">
@@ -199,16 +190,14 @@
                   </p>
                 </div>
               </div>
-            </a>
           </div>
-          <div class="col-md-4 col-sm-12 ">
-            <a href="#" class="link-single-blog">
-              <div class="card">
+          <div class="col-lg-4 col-md-6 col-sm-12 ">
+              <div class="card-benefit">
                 <div class="zoom-frame">
                   <img
-                    src="assets/images/aksesinformation.png"
-                    class="card-img-top"
-                    alt=""
+                    src="assets/images/24-service.jpg"
+                    class="img-on-benefit"
+                    alt="Dukungan 24/7"
                   />
                 </div>
                 <div class="card-body">
@@ -220,7 +209,6 @@
                   </p>
                 </div>
               </div>
-            </a>
           </div>
           
         </div>
@@ -229,30 +217,31 @@
 
     <section class="our-blog">
       <div class="container">
-        <h2 class="text-center">Paket Go Online Starter Pack: Layanan Pembuatan Website yang Siap Membantu Anda Terjun ke Dunia Online 🚀</h2>
+        <h2 class="text-center">Go Online Standar Pack : Layanan Pembuatan Website yang Siap Membantu Anda Terjun ke Dunia Online 🚀</h2>
 
-        <p class="text-center">Paket jasa pembuatan website terjangkau dari Ruang Engineer yang dapat menghasilkan halaman website siap pakai untuk keperluan bisnis Anda.</p>
+        <p class="w70 text-center fw-medium mb-5">Paket jasa pembuatan website terjangkau dari Ruang Engineer yang dapat menghasilkan halaman website siap pakai untuk keperluan bisnis Anda.</p>
       </div>
 
       <div class="container mt-5">
         <div class="row">
-          <div class="col-md-5 mb-5">
-            <img src="assets/images/menghematbiaya.jpeg" class="img-fluid" alt="">
+           <div class="col-md-5 mb-5">
+            <img src="assets/images/proses-cepat.jpg" class="img-fluid" style="border-radius: 10px" alt="Proses Pengerjaan Cepat">
           </div>
+          
           <div class="col-md-7 mb-5">
-            <h3>Proses pengerjaan cuma 2 - 4 hari kerja!</h3>
-            <p>Waktu adalah uang! Semakin cepat website Anda online maka semakin besar pula kesempatan untuk mendapat calon pelanggan.</p>
+            <h3>Proses pengerjaan hanya 2 - 4 hari kerja!</h3>
+            <p>Waktu merupakan salah satu aset berharga. Semakin cepat website Anda online, semakin besar peluang Anda mendapatkan calon pelanggan</p>
 
-            <p>Tak perlu menunggu terlalu lama untuk mulai Go Online, karena layanan Jasa Pembuatan Website Go Online Starter pack hanya butuh waktu 2 hari pengerjaan!</p>
+            <p>Tidak perlu menunggu terlalu lama untuk memulai perjalanan online Anda. Dengan Jasa Pembuatan Website Go Online Standar Pack, hanya diperlukan 2 - 4 hari kerja!</p>
           </div>
+
           <div class="col-md-5 mb-5">
-            <img src="assets/images/benefitofJasa.jpg" class="img-fluid" alt="">
+            <img src="assets/images/menghematbiaya.jpeg" class="img-fluid" style="border-radius: 10px" alt="Potensi Keuntungan Tinggi">
           </div>
+         
           <div class="col-md-7 mb-5">
-            <h3>Modal minimal, Untung maksimal</h3>
-            <p>Berbeda dari paket Bikin.Website lainnya, Layanan Go Online Starter Pack adalah paket jasa pembuatan website yang paling terjangkau.</p>
-
-            <p>Anda cukup mengeluarkan biaya setara dengan Paket Data Internet Bulanan untuk sebuah website landing page profesional.</p>
+            <h3>Modal minimal, Potensi keuntungan yang tinggi</h3>
+            <p>Tidak seperti paket pembuatan website lainnya, Go Online Standar Pack adalah opsi paling ekonomis dalam layanan jasa pembuatan website.</p>
           </div>
         </div>
       </div>
@@ -266,17 +255,6 @@
               <h2 class="why-choose-title">
                 Seputar Pertanyaan Umum(FAQ)
               </h2>
-              <p>
-                Bagi mereka yang baru memasuki dunia pembuatan website, mungkin
-                banyak pertanyaan yang muncul. Kami telah mengumpulkan beberapa
-                pertanyaan yang sering ditanyakan untuk membantu Anda memahami
-                lebih lanjut tentang jasa pembuatan website. Dari konsep dasar
-                hingga biaya dan dukungan teknis, FAQ ini akan memberikan
-                pemahaman yang lebih baik tentang apa yang dapat Anda harapkan
-                ketika menggunakan jasa pembuatan website. Jadi, mari kita mulai
-                menjawab pertanyaan-pertanyaan umum yang mungkin muncul di benak
-                Anda.
-              </p>
             </div>
 
             <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -290,7 +268,7 @@
                     aria-expanded="false"
                     aria-controls="flush-collapseOne"
                   >
-                    Mengapa saya perlu menggunakan jasa pembuatan website?
+                    Berapa biaya pembuatan website murah?
                   </button>
                 </h2>
                 <div
@@ -300,11 +278,7 @@
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    Menggunakan jasa pembuatan website membantu Anda memiliki
-                    website yang profesional dan fungsional. Website dapat
-                    menjadi platform untuk memperluas jangkauan bisnis,
-                    mempromosikan produk atau layanan, dan menjangkau audiens
-                    yang lebih luas.
+                    Biaya pembuatan website murah dapat bervariasi tergantung pada kompleksitas proyek dan fitur yang Anda inginkan. Biasanya, harga dimulai dari 1 Juta dan dapat disesuaikan sesuai kebutuhan.
                   </div>
                 </div>
               </div>
@@ -319,8 +293,7 @@
                     aria-expanded="false"
                     aria-controls="flush-collapseTwo"
                   >
-                    Apakah saya perlu memiliki pengetahuan teknis untuk
-                    menggunakan jasa pembuatan website?
+                    Apakah paket jasa pembuatan website murah sudah termasuk domain?
                   </button>
                 </h2>
                 <div
@@ -330,10 +303,7 @@
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    Tidak, Anda tidak perlu memiliki pengetahuan teknis yang
-                    mendalam. Jasa pembuatan website dapat membantu Anda dari
-                    awal hingga akhir, termasuk dalam pemilihan domain, desain,
-                    pengembangan, dan peluncuran website.
+                    Ya! Layanan paket website murah dari Ruang Engineer sudah termasuk dengan nama domain .COM / .ID yang bisa Anda pilih sendiri asalkan domain masih tersedia.
                   </div>
                 </div>
               </div>
@@ -348,7 +318,7 @@
                     aria-expanded="false"
                     aria-controls="flush-collapseThree"
                   >
-                    Berapa biaya yang terkait dengan jasa pembuatan website?
+                   Bagaimana cara memesan jasa pembuatan website murah?
                   </button>
                 </h2>
                 <div
@@ -358,204 +328,7 @@
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    Biaya pembuatan website bervariasi tergantung pada
-                    kompleksitas proyek, jumlah halaman, fitur khusus, dan
-                    tingkat kustomisasi yang Anda inginkan. Sebaiknya Anda
-                    berdiskusi langsung dengan penyedia jasa untuk mendapatkan
-                    perkiraan biaya yang sesuai dengan anggaran Anda.
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingFour">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseFour"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseFour"
-                  >
-                    Berapa lama waktu yang dibutuhkan untuk membuat sebuah
-                    website?
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseFour"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingFour"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    Waktu pembuatan website dapat bervariasi tergantung pada
-                    kompleksitas proyek dan kesepakatan yang Anda buat dengan
-                    penyedia jasa. Biasanya, proses pembuatan website memakan
-                    waktu beberapa minggu hingga beberapa bulan, tergantung pada
-                    skala dan kebutuhan proyek.
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingFive">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseFive"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseFive"
-                  >
-                    Bagaimana dengan dukungan teknis setelah peluncuran website?
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseFive"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingFive"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    Banyak penyedia jasa pembuatan website juga menyediakan
-                    dukungan teknis setelah peluncuran. Jika Anda mengalami
-                    masalah teknis atau membutuhkan bantuan, Anda dapat
-                    menghubungi penyedia jasa untuk mendapatkan bantuan dan
-                    solusi yang diperlukan.
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingSix">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseSix"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseSix"
-                  >
-                    Apakah saya bisa menentukan desain website saya sendiri?
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseSix"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingSix"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    Tentu saja, kami memberikan kesempatan pelanggan kami untuk
-                    menentukan desain website mereka. Hal ini dapat dibicarakan
-                    setelah konsultasi pada tim kami.
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingSeven">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseSeven"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseSeven"
-                  >
-                    Bagaimana jika website saya mengalami kendala?
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseSeven"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingSeven"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    Jangan khawatir, tim kami akan siap siaga memberikan layanan
-                    prima 24/7 kepada pelanggan kami.
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingEight">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseEight"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseEight"
-                  >
-                    Apakah saya mendapatkan domain dan hosting?
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseEight"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingEight"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    Ya, apabila anda menggunakan jasa pembuatan website dari
-                    ruang engineer, anda mendapatkan gratis domain dan hosting
-                    untuk satu tahun pertama.
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingNine">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseNine"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseNine"
-                  >
-                    Apakah saya mendapatkan email dengan nama domain saya?
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseNine"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingNine"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    Ya, Anda mendapatkan email bisnis atau email dengan nama
-                    domain Anda.
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTen">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseTen"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseTen"
-                  >
-                    Saya sudah memiliki domain dan hosting sendiri, lalu apakah
-                    saya bisa membuat website dengan layanan Ruang Engineer?
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseTen"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingTen"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    Ya, anda bisa menggunakan jasa layanan kami. Jangan khawatir
-                    kami akan bantu anda sampai website impian anda bisa di
-                    akses!
+                    Untuk pemesanan jasa website murah di Ruang Engineer bisa menghubungi kami melalui WhatsApp <a href="https://api.whatsapp.com/send?phone=6285281986573&text=Hallo,%20tolong%20jelaskan%20mengenai%20layanan%20jasa%20Anda">0852-8198-6573</a>, Telepon 0857-7429-0746 , ataupun Email ke support@ruangengineer.com
                   </div>
                 </div>
               </div>
@@ -566,13 +339,13 @@
     </section>
 
     <section class="wrapper-primary">
-      <div class="container" style="width:90%;background-color:#4bc4df;border-radius: 20px;padding: 30px 20px 40px;box-sizing: border-box;">
+      <div class="bg-cta">
       
-        <span class="d-block text-center" style="font-size: 24px;color: white;font-weight: bold;margin-bottom: 10px;">Perlu Bantuan ?</span>
-        <p class="text-center" style="color:#f2f2f2">Jangan sungkan untuk bertanya, kami siap melayani anda 24 jam</p>
+        <span class="d-block text-center fs-bold">Perlu Bantuan ?</span>
+        <p class="text-center f2">Jangan sungkan untuk bertanya, kami siap melayani anda 24 jam</p>
 
         <div class="text-center mt-5">
-          <a href="https://api.whatsapp.com/send?phone=6285281986573&text=Hallo, tolong jelaskan mengenai layanan jasa Anda?" style="text-decoration: none;padding: 12px 25px;border-radius: 10px;background: #001c30;color: #fff;"><i class="bi bi-whatsapp"></i> Hubungi Kami</a>
+          <a href="https://api.whatsapp.com/send?phone=6285281986573&text=Hallo, tolong jelaskan mengenai layanan jasa Anda?" class="hubungi"><i class="bi bi-whatsapp"></i> Hubungi Kami</a>
         </div>
 
       </div>

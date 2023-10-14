@@ -12,6 +12,12 @@
               menjangkau lebih banyak pelanggan, membangun kredibilitas, dan
               mencapai kesuksesan ditengah bisnis yang kompetitif.
             </p>
+            <div class="mb-2">
+                <a href="/kebijakan-privasi" target="_blank" class="title-info text-decoration-none">Kebijakan Privasi</a>
+            </div>
+            <div class="mb-2">
+                <a href="/ketentuan-kami" target="_blank" class="title-info text-decoration-none">Ketentuan Kami</a>
+            </div>
           </div>
           
           <div class="col-lg-4 col-md-12 col-sm-12">

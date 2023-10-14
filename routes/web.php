@@ -1,12 +1,15 @@
 <?php
 
+use App\Models\Artikel;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ArtikelController;
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\LogoutController;
-use App\Http\Controllers\CategoryController;
-use App\Http\Controllers\BlogController;
 use App\Http\Controllers\DetailArtikelController;
 use App\Http\Controllers\ImageInContentController;
 
@@ -21,8 +24,16 @@ use App\Http\Controllers\ImageInContentController;
 |
 */
 
-Route::get('/', function () {return view('home');});
+Route::get('/', function () {
+    return view('home', [
+        'artikels' => Artikel::all(),
+    ]);
+});
+
+
 Route::get('/jasa-pembuatan-website-murah', function () {return view('jasa-pembuatan-website-murah');});
+Route::get('/kebijakan-privasi', function () {return view('privacy-policy');});
+Route::get('/ketentuan-kami', function () {return view('ketentuan-kami');});
 
 // Auth::routes();
 
