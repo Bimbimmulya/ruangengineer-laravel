@@ -191,7 +191,7 @@
     </section>
 
     {{-- about --}}
-    <section class="wrapper-with-bg-about">
+    <section class="wrapper-with-bg-about" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-12 col-sm-12">
@@ -211,7 +211,7 @@
     </section>
 
     {{-- vision --}}
-    <section class="wrapper-with-bg">
+    <section class="wrapper-with-bg" id="visimisi">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-12 col-sm-12 mb-5">
@@ -375,7 +375,7 @@
     </section>
 
     {{-- our services --}}
-    <section class="our-service">
+    <section class="our-service" id="service">
       <h2 class="why-choose-title">Layanan Kami</h2>
       <p class="sub-why-choose">
         Kami hadir untuk memberikan layanan terbaik bagi bisnis Anda. Segera
@@ -690,7 +690,7 @@
     </section>
 
     {{-- our package --}}
-    <section class="price-service">
+    <section class="price-service" id="pricelist">
       <h2 class="why-choose-title">Pilihan Harga Layanan Kami</h2>
       <p class="sub-why-choose">
         Pilih layanan kami sesuai dengan kebutuhan bisnis Anda
@@ -924,7 +924,7 @@
     </section>
 
     {{-- testimonial --}}
-    <section class="what-they-says">
+    <section class="what-they-says" id="portfolio">
       <h2 class="why-choose-title">Kata Mereka</h2>
       <p class="sub-why-choose">Apa Kata Mereka Tentang Kami ?</p>
 
