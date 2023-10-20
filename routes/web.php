@@ -12,6 +12,7 @@ use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\LogoutController;
 use App\Http\Controllers\DetailArtikelController;
 use App\Http\Controllers\ImageInContentController;
+use App\Http\Controllers\SearchController;
 
 /*
 |--------------------------------------------------------------------------
@@ -65,5 +66,9 @@ Route::delete('/admin/view-image-content-delete/{id}', [ImageInContentController
 Route::post('admin/view-image-content', [ImageInContentController::class, 'store'])->name('admin.view-image-content');
 
 Route::get('/blog', [BlogController::class, 'index'])->name('blog');
+Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+Route::get('/about', [ContactController::class, 'about'])->name('about');
 Route::get('/detail-artikel', [DetailArtikelController::class, 'show'])->name('detail-artikel');
 Route::get('/{slug}', [DetailArtikelController::class, 'show_artikel'])->name('detail_artikel');
+Route::get('/search', [SearchController::class, 'search'])->name('search');
+Route::get('/search', [DetailArtikelController::class, 'search'])->name('search');
