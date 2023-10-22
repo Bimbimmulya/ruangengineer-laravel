@@ -31,7 +31,7 @@
         Kami sudah dipercaya oleh 50+ bisnis dari berbagai industri
       </p>
 
-      <div class="container mt-5">
+      {{-- <div class="container mt-5">
         <div class="slider">
           <div class="slider-item">
             <img
@@ -88,106 +88,69 @@
           </div>
 
         </div>
-      </div>
+      </div> --}}
 
-      <!-- Swiper -->
-      <!-- <div class="swipers mySwiper1">
-        <div class="swiper-wrapper">
-          <div class="clients-wrapper">
-            <img
-              src="assets/images/rsbintaro.png"
-              class="img-fluid"
-              alt="RS PREMIER BINTARO"
-              width="150"
-              height="150"
-            />
-          
-            <img
-              src="assets/images/karyatama.webp"
-              class="img-fluid"
-              alt="Karyatama"
-              width="70"
-              height="70"
-            />
-            <img
-              src="assets/images/cahayadhuha-futsal.webp"
-              class="img-fluid"
-              alt="Cahaya Dhuha Futsal"
-              width="80"
-              height="80"
-            />
-            <img
-              src="assets/images/kevin-shipping.webp"
-              class="img-fluid"
-              alt="Kevin Shipping"
-              width="80"
-              height="58"
-            />
-            <img
-              src="assets/images/ramen.PNG"
-              class="img-fluid"
-              alt="Tuku Ramen"
-              width="70"
-              height="70"
-            />
-            <img
-              src="assets/images/visited-rapid-test.webp"
-              class="img-fluid"
-              alt="Visit Rapid Test"
-              width="70"
-            />
+      <div class="swiper mySwiper1" style="max-height: 150px">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" style="text-align: center;line-height:100px;border:none">
+                    <img
+                      src="assets/images/karyatama.webp"
+                      class="img-fluid gray"
+                      alt="Klien Ruang Engineer - PT. Karya Putera Semare"
+                      width="70"
+                      height="70"
+                    />
+              </div>
+              <div class="swiper-slide" style="text-align: center;line-height:100px;border:none">
+                    <img
+                      src="assets/images/rsbintaro.png"
+                      class="img-fluid gray"
+                      alt="Klien Ruang Engineer - RS PREMIER BINTARO"
+                      width="150"
+                      height="150"
+                    />
+              </div>
+              <div class="swiper-slide" style="text-align: center;line-height:100px;border:none">
+                    <img
+                      src="assets/images/cahayadhuha-futsal.webp"
+                      class="img-fluid gray"
+                      alt="Klien Ruang Engineer - Cahaya Dhuha Futsal"
+                      width="80"
+                      height="80"
+                    />
+              </div>
+              <div class="swiper-slide" style="text-align: center;line-height:100px;border:none">
+                    <img
+                      src="assets/images/kevin-shipping.webp"
+                      class="img-fluid gray"
+                      alt="Klien Ruang Engineer - Kevin Shipping"
+                      width="80"
+                      height="58"
+                    />
+              </div>
+              <div class="swiper-slide" style="text-align: center;line-height:100px;border:none">
+                    <img
+                      src="assets/images/ramen.PNG"
+                      class="img-fluid gray"
+                      alt="Klien Ruang Engineer - Tuku Ramen"
+                      width="70"
+                      height="70"
+                    />
+              </div>
+              <div class="swiper-slide" style="text-align: center;line-height:100px;border:none">
+                    <img
+                      src="assets/images/visited-rapid-test.webp"
+                      class="img-fluid gray"
+                      alt="Klien Ruang Engineer - Visit Rapid Test"
+                      width="70"
+                    />
+              </div>
+            </div>
+            <div class="swiper-button-nexts next"></div>
+            <div class="swiper-button-prevs"></div>
+            <div class="swiper-paginations"></div>
           </div>
         </div>
-
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-        
-      </div> -->
-
-      <!-- <div class="clients-wrapper">
-        <img
-          src="assets/images/rsbintaro.png"
-          class="img-fluid gray"
-          alt="RS PREMIER BINTARO"
-          width="150"
-          height="150"
-        />
-        <img
-          src="assets/images/karyatama.webp"
-          class="img-fluid gray"
-          alt="Karyatama"
-          width="70"
-          height="70"
-        />
-        <img
-          src="assets/images/cahayadhuha-futsal.webp"
-          class="img-fluid gray"
-          alt="Cahaya Dhuha Futsal"
-          width="80"
-          height="80"
-        />
-        <img
-          src="assets/images/kevin-shipping.webp"
-          class="img-fluid gray"
-          alt="Kevin Shipping"
-          width="80"
-          height="58"
-        />
-        <img
-          src="assets/images/ramen.PNG"
-          class="img-fluid gray"
-          alt="Tuku Ramen"
-          width="70"
-          height="70"
-        />
-        <img
-          src="assets/images/visited-rapid-test.webp"
-          class="img-fluid gray"
-          alt="Visit Rapid Test"
-          width="70"
-        />
-      </div> -->
     </section>
 
     {{-- about --}}

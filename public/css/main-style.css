@@ -89,22 +89,6 @@
     color: #4bc4df;
 }
 
-.swipers {
-    width: 100%;
-    height: 300px;
-    box-sizing: border-box;
-}
-
-.swiper-slide {
-    border-radius: 20px;
-    border: 1px solid var(--stroke-shadowcard, rgba(124, 124, 124, 0.1));
-    background: #fff;
-    box-shadow: 2px 4px 24px 0px rgba(0, 0, 0, 0.02);
-    padding: 32px;
-    text-align: justify;
-    height: 274px;
-}
-
 .privacy-policy {
     background-image: url("../assets/images/bg-privasi-policy.webp");
     background-position: center;
@@ -849,6 +833,14 @@ header.scrolled .nav-link {
 
 .swiper-button-prev {
     color: #4bc4df;
+}
+
+.swiper-button-nexts {
+    display: none;
+}
+
+.swiper-button-prevs {
+    display: none;
 }
 
 .swiper-pagination {

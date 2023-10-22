@@ -84,9 +84,9 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <!-- slick js -->
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    {{-- <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> --}}
     <!-- Our Script -->
-    <script>
+    {{-- <script>
         $(document).ready(function(){
             $('.slider').slick({
                 centerMode: true,   
@@ -125,7 +125,7 @@
                 autoplaySpeed: 2500,
             });
         });
-    </script>
+    </script> --}}
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
@@ -137,6 +137,9 @@
       grabCursor: true,
       keyboard: {
         enabled: true,
+      },
+      autoplay: {
+        delay: 3000,
       },
       breakpoints: {
         900: {
@@ -158,35 +161,39 @@
       },
 
       });
+    </script>
 
+    <script>
       let swipers = new Swiper(".mySwiper1", {
-      slidesPerView: 1,
+      slidesPerView: 2,
       centeredSlides: false,
       slidesPerGroupSkip: 1,
       grabCursor: true,
       keyboard: {
         enabled: true,
       },
+      autoplay: {
+        delay: 3000,
+      },
       breakpoints: {
         576: {
-          slidesPerView: 3,
+          slidesPerView: 4,
+          spaceBetween: 20,
           slidesPerGroup: 1,
         },
       },
-      // scrollbar: {
-      //   el: ".swiper-scrollbar",
-      // },
       navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-nexts",
+        prevEl: ".swiper-button-prevs",
       },
       pagination: {
-        el: ".swiper-pagination",
+        el: ".swiper-paginations",
         clickable: true,
       },
 
       });
     </script>
+    
 
     <script src="../js/script.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
